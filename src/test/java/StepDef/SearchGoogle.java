@@ -27,7 +27,7 @@ public class SearchGoogle {
 
     @And("Located on google website")
     public void locatedOnGoogleWebsite() {
-        driver.findElement(By.name("q")).isDisplayed();
+        driver.findElement(By.name("btnK")).isDisplayed();
     }
 
     @When("I search {string}")
