@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T09:25:15.352Z",
+        "line": 2,
+        "name": "I want to using feature search on google",
+        "description": "",
+        "id": "search-google;i-want-to-using-feature-search-on-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1548610600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open browser",
+            "match": {
+              "location": "StepDef.SearchGoogle.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1790825400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website Google",
+            "match": {
+              "location": "StepDef.SearchGoogle.openWebsiteGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66139100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Located on google website",
+            "match": {
+              "location": "StepDef.SearchGoogle.locatedOnGoogleWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088765700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search \"Habiburrahman Ahmadi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Habiburrahman Ahmadi\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDef.SearchGoogle.iSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4310942900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Showing result related with \"Habiburrahman Ahmadi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Habiburrahman Ahmadi\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDef.SearchGoogle.showingResultRelatedWith(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Google",
+    "description": "",
+    "id": "search-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchGoogle.feature",
+    "tags": []
+  }
+]
